@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please credit the original measurement authors using the preferred citation, and identify the repository version used for local selection and preprocessing."
+type: dataset
+title: "EAF PCC Source Dataset"
+version: 1.0.0
+date-released: 2026-11-02
+authors:
+  - family-names: Wu
+    given-names: Tong
+repository-code: "https://github.com/XiXi-00/eaf-pcc-source-data"
+preferred-citation:
+  type: article
+  title: "Experimental data on power quality assessment at point of common coupling of a steel mill to an electric power grid"
+  authors:
+    - family-names: Ugwuagbo
+      given-names: Emenike
+    - family-names: Balogun
+      given-names: Adeola
+    - family-names: Olajube
+      given-names: Ayobami
+    - family-names: Omeje
+      given-names: Osita
+    - family-names: Awelewa
+      given-names: Ayokunle
+    - family-names: Abba-Aliyu
+      given-names: Shehu
+  journal: "Data in Brief"
+  volume: 39
+  start: "107681"
+  year: 2021
+  doi: "10.1016/j.dib.2021.107681"

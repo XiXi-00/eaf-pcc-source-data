@@ -1,0 +1,236 @@
+{
+  "title": "EAF PCC Source Dataset",
+  "version": "1.0.0",
+  "prepared_on": "2026-11-02",
+  "maintainer": "Tong Wu",
+  "repository": "https://github.com/XiXi-00/eaf-pcc-source-data",
+  "upstream": {
+    "title": "Experimental data on power quality assessment at point of common coupling of a steel mill to an electric power grid",
+    "authors": [
+      "Emenike Ugwuagbo",
+      "Adeola Balogun",
+      "Ayobami Olajube",
+      "Osita Omeje",
+      "Ayokunle Awelewa",
+      "Shehu Abba-Aliyu"
+    ],
+    "journal": "Data in Brief",
+    "year": 2021,
+    "volume": 39,
+    "article": "107681",
+    "doi": "10.1016/j.dib.2021.107681",
+    "url": "https://doi.org/10.1016/j.dib.2021.107681",
+    "license": "CC BY 4.0 as stated in the source article",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "time_window": {
+    "start": "2018-11-22 20:01:00",
+    "end": "2018-11-23 15:00:00",
+    "timestamps": 1140,
+    "interval_seconds": 60,
+    "timezone": "Not specified in the source exports. No timezone conversion performed."
+  },
+  "phase_rows": 3420,
+  "phases": [
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "split_timepoints": {
+    "Train": 798,
+    "Validation": 171,
+    "Test": 171
+  },
+  "split_phase_rows": {
+    "Train": 2394,
+    "Validation": 513,
+    "Test": 513
+  },
+  "selected_export_numeric_rows": {
+    "power": 1140,
+    "current_harmonics": 1140,
+    "voltage_harmonics": 1140,
+    "thd": 3505
+  },
+  "selected_current_harmonic_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "selected_voltage_harmonic_orders": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "derived_sequence_nan_counts": {
+    "SampleInterval_s": 3,
+    "Feature_MeasuredActivePowerLag1_kW": 3,
+    "Feature_ReactivePowerLag1_kvar": 3,
+    "Feature_dlogCassieMayrConductance_dt_per_s": 28,
+    "Reference_P0Equivalent_kW": 28
+  },
+  "files": [
+    {
+      "path": "data/raw/supplementary_exports/CURRENT HARMONICS 1-50.csv",
+      "bytes": 2675788,
+      "sha256": "d22e753789c51a551a614abae8c307fa64bd812d670d0d25a6192d417c243f88",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 10459,
+      "row_width_counts": {
+        "49": 6964,
+        "103": 10,
+        "55": 3481,
+        "97": 4
+      }
+    },
+    {
+      "path": "data/raw/supplementary_exports/POWER PARAMETERS.csv",
+      "bytes": 462823,
+      "sha256": "f70610d457edb58f1bf4931e804ad725b07bbff240219413ac3bb623f95acd7f",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 3487,
+      "row_width_counts": {
+        "19": 3483,
+        "37": 4
+      }
+    },
+    {
+      "path": "data/raw/supplementary_exports/THD HARMONICS.csv",
+      "bytes": 179201,
+      "sha256": "dfa81e653d45b493a3a2efa4b567cd65fa111ec8dcb4cc9cc805ab9fa0d862e7",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 3506,
+      "row_width_counts": {
+        "7": 3502,
+        "13": 4
+      }
+    },
+    {
+      "path": "data/raw/supplementary_exports/VOLTAGE HARMONICS 1-50.csv",
+      "bytes": 2749963,
+      "sha256": "a31586ec909db72f38ca8ba62cbc5b469162eae897c995d328ac47463e789cf4",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 6973,
+      "row_width_counts": {
+        "76": 6964,
+        "151": 9
+      }
+    },
+    {
+      "path": "data/selected_local/02.CURRENT HARMONICS 1-50.csv",
+      "bytes": 299542,
+      "sha256": "bc30d2cb791a207ee32d3da5b776f82f49fc3d3e75f872c1fc928c5eb6a441b4",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 1141,
+      "row_width_counts": {
+        "49": 1141
+      }
+    },
+    {
+      "path": "data/selected_local/02.POWER PARAMETERS.csv",
+      "bytes": 154997,
+      "sha256": "078339fa3cb4bcbf0c0066a64e4936d5f8f83f5259389d78601ce188016ec16d",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 1141,
+      "row_width_counts": {
+        "19": 1141
+      }
+    },
+    {
+      "path": "data/selected_local/02.THD HARMONICS.csv",
+      "bytes": 179285,
+      "sha256": "56a53e7982a2da7b37dccdb34abb39447888f40569006ed4525572aafcdbfd32",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 3548,
+      "row_width_counts": {
+        "7": 3510,
+        "0": 38
+      }
+    },
+    {
+      "path": "data/selected_local/02.VOLTAGE HARMONICS 1-50.csv",
+      "bytes": 457741,
+      "sha256": "385bbfb4dbca8090690fcb0245b3670dbe423480fafc14d158d0b684ea2d84ff",
+      "delimiter": ";",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 1141,
+      "row_width_counts": {
+        "76": 1141
+      }
+    },
+    {
+      "path": "data/processed/data1_physical_model_dataset.csv",
+      "bytes": 1151845,
+      "sha256": "3d67988fdc0361341cd7488345ca4ea03bee8e0565d92db74b1c6e65214a1501",
+      "delimiter": ",",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 1141,
+      "row_width_counts": {
+        "77": 1141
+      }
+    },
+    {
+      "path": "data/processed/data1_gru_phase_sequence.csv",
+      "bytes": 705204,
+      "sha256": "d5b685411a909e9ccc2ffc34e25673c6dfb5e9c86a89be43d2499fb68194774c",
+      "delimiter": ",",
+      "encoding": "UTF-8 with optional BOM",
+      "parsed_records_including_headers_and_empty_rows": 3421,
+      "row_width_counts": {
+        "22": 3421
+      }
+    },
+    {
+      "path": "data/processed/pcc_measurements_aligned.csv",
+      "bytes": 901647,
+      "sha256": "80eb935ab721790855a26fd65b9eb3e4b6bf749b9d5662fc3cb33a3241dad07a",
+      "delimiter": ",",
+      "encoding": "UTF-8",
+      "rows": 1140,
+      "columns": 148,
+      "transformation": "Inner timestamp join of finite numeric records from the four selected_local exports. Header prefixes added. Original numeric strings retained. No interpolation or simulation."
+    }
+  ],
+  "scope": "PCC minute-scale measurements and saved same-node model-derived features. No target-device data, model checkpoints, manuscript files, or prediction outputs.",
+  "transformations": "Raw, selected_local, and the two historical derived CSVs are byte-preserved copies. Only pcc_measurements_aligned.csv is newly generated by timestamp alignment and column prefixing."
+}

@@ -1,0 +1,248 @@
+file,column,unit,kind,origin
+data/processed/data1_gru_phase_sequence.csv,Timestamp,datetime string,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,TimeIndex,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Phase,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,PhaseIndex,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Split,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,SampleInterval_s,s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_CassieMayrConductance_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_dCassieMayrConductance_dt_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_dlogCassieMayrConductance_dt_per_s,1/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_THDI_pct,%,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_THDV_pct,%,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_CassieMayrPower_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_ReactivePower_kvar,kvar,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_MeasuredActivePowerLag1_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Feature_ReactivePowerLag1_kvar,kvar,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Reference_RealActivePower_kW,kW,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Reference_Current_A,A,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Reference_FundamentalVoltage_V,V,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Reference_P0Equivalent_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,Target_ActivePowerResidual_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,ZeroCurrentPhase,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_gru_phase_sequence.csv,QualityOK,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,Timestamp,datetime string,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,Split,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,Current_L1_A,A,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,Current_L2_A,A,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,Current_L3_A,A,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,FundamentalCurrent_L1_A,A,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,FundamentalCurrent_L2_A,A,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,FundamentalCurrent_L3_A,A,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,FundamentalVoltage_L1_V,V,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,FundamentalVoltage_L2_V,V,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,FundamentalVoltage_L3_V,V,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,RealActivePower_L1_kW,kW,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,RealActivePower_L2_kW,kW,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,RealActivePower_L3_kW,kW,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ReactivePower_L1_kvar,kvar,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ReactivePower_L2_kvar,kvar,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ReactivePower_L3_kvar,kvar,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,RecordedApparentPower_L1_kVA,kVA,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,RecordedApparentPower_L2_kVA,kVA,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,RecordedApparentPower_L3_kVA,kVA,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,PowerFactor_L1,dimensionless or categorical,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,PowerFactor_L2,dimensionless or categorical,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,PowerFactor_L3,dimensionless or categorical,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,THDi_L1_pct,%,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,THDi_L2_pct,%,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,THDi_L3_pct,%,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,THDv_L1_pct,%,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,THDv_L2_pct,%,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,THDv_L3_pct,%,reference measurement,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,OhmicRmsConductance_L1_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,OhmicRmsConductance_L2_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,OhmicRmsConductance_L3_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ApparentConductance_L1_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ApparentConductance_L2_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ApparentConductance_L3_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,CassieMayrConductance_L1_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,CassieMayrConductance_L2_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,CassieMayrConductance_L3_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ActiveConductance_L1_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ActiveConductance_L2_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ActiveConductance_L3_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dCassieMayrConductance_dt_L1_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dCassieMayrConductance_dt_L2_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dCassieMayrConductance_dt_L3_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dActiveConductance_dt_L1_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dActiveConductance_dt_L2_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dActiveConductance_dt_L3_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dlogCassieMayrConductance_dt_L1_per_s,1/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dlogCassieMayrConductance_dt_L2_per_s,1/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dlogCassieMayrConductance_dt_L3_per_s,1/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,P0Equivalent_L1_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,P0Equivalent_L2_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,P0Equivalent_L3_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,CassieMayrPower_L1_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,CassieMayrPower_L2_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,CassieMayrPower_L3_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,PhysicalPower_L1_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,PhysicalPower_L2_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,PhysicalPower_L3_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ResidualPower_L1_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ResidualPower_L2_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ResidualPower_L3_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,TotalRealActivePower_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,TotalCassieMayrPower_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,TotalPhysicalPower_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,TotalResidualPower_kW,kW,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,TotalReactivePower_kvar,kvar,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,TotalCassieMayrConductance_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,TotalActiveConductance_S,S,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dTotalCassieMayrConductance_dt_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,dTotalActiveConductance_dt_S_per_s,S/s,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,MeanTHDi_pct,%,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,MeanTHDv_pct,%,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,ZeroPhaseCount,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,PowerTriangleClipped,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,SamplingGap,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/data1_physical_model_dataset.csv,QualityOK,dimensionless or categorical,derived feature label or metadata,Saved PCC equivalent-model preprocessing
+data/processed/pcc_measurements_aligned.csv,Timestamp,datetime string,measured,Timestamp
+data/processed/pcc_measurements_aligned.csv,power__Current L1,A,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Current L2,A,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Current L3,A,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Active power L1,kW,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Active power L2,kW,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Active power L3,kW,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Inductive power L1,kvar,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Inductive power L2,kvar,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Inductive power L3,kvar,measured,power
+data/processed/pcc_measurements_aligned.csv,power__P.F. L1,dimensionless or categorical,measured,power
+data/processed/pcc_measurements_aligned.csv,power__P.F. L2,dimensionless or categorical,measured,power
+data/processed/pcc_measurements_aligned.csv,power__P.F. L3,dimensionless or categorical,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Apparent power  L1,kVA,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Apparent power  L2,kVA,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Apparent power  L3,kVA,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Voltage L12,V,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Voltage L23,V,measured,power
+data/processed/pcc_measurements_aligned.csv,power__Voltage L31,V,measured,power
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 10 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 10 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 10 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 11 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 11 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 11 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 12 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 12 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 12 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 13 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 13 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 13 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 14 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 14 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 14 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 15 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 15 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 15 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 16 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 16 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 16 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Fundamental current ~ L1,A,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Fundamental current ~ L2,A,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Fundamental current ~ L3,A,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 2 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 2 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 2 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 3 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 3 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 3 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 4 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 4 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 4 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 5 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 5 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 5 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 6 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 6 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 6 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 7 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 7 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 7 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 8 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 8 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 8 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 9 ~ L1,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 9 ~ L2,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,current_harmonics__Harm. current 9 ~ L3,%,measured,current_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 10 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 10 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 10 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 11 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 11 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 11 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 12 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 12 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 12 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 13 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 13 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 13 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 14 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 14 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 14 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 15 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 15 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 15 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 16 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 16 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 16 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 17 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 17 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 17 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 18 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 18 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 18 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 19 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 19 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 19 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Fundamental voltage ~ L1,V,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Fundamental voltage ~ L2,V,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Fundamental voltage ~ L3,V,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 20 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 20 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 20 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 21 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 21 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 21 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 22 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 22 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 22 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 23 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 23 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 23 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 24 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 24 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 24 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 25 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 25 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 25 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 2 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 2 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 2 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 3 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 3 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 3 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 4 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 4 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 4 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 5 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 5 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 5 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 6 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 6 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 6 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 7 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 7 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 7 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 8 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 8 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 8 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 9 ~ L1,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 9 ~ L2,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,voltage_harmonics__Harm. voltage 9 ~ L3,%,measured,voltage_harmonics
+data/processed/pcc_measurements_aligned.csv,thd__Distortion in current ~ L1,%,measured,thd
+data/processed/pcc_measurements_aligned.csv,thd__Distortion in current ~ L2,%,measured,thd
+data/processed/pcc_measurements_aligned.csv,thd__Distortion in current ~ L3,%,measured,thd
+data/processed/pcc_measurements_aligned.csv,thd__Distortion in voltage ~ L1,%,measured,thd
+data/processed/pcc_measurements_aligned.csv,thd__Distortion in voltage ~ L2,%,measured,thd
+data/processed/pcc_measurements_aligned.csv,thd__Distortion in voltage ~ L3,%,measured,thd
